@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Q4 {
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(Sysytem.in);
+        int a=sc.nextInt();
+        System.out.println(a);
+    }
+
+    
+}
