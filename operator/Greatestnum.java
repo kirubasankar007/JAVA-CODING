@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Greatestnum{
+
+    public static void main(String[] args) {
+        
+        Scanner src=new Scanner(System.in);
+        int a=src.nextInt();
+        int b=src.nextInt();
+        int c=src.nextInt();
+        if(a>b&&a>c)
+        {
+            System.out.println("a is greatest");
+        }
+        else if (b>a&&b>c) 
+        {
+            System.out.println("b is greater");
+        }
+        else
+        {
+            System.out.println("cis greater");
+        }
+
+
+    }
+}
+
